@@ -40,7 +40,7 @@ function Section({ children, title }: any): JSX.Element {
   );
 }
 
-function App(): JSX.Element {
+function Screen1(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   const myIcon = <Icon name="rocket" size={30} color="#900" />;
 
@@ -98,4 +98,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Screen1;
