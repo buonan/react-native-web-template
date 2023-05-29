@@ -34,6 +34,9 @@ yarn web
 ```
 yarn ios
 ```
-
+# How to Test
+```
+yarn test
+```
 # How to use Pencil for UI mockups
 https://github.com/evolus/pencil
